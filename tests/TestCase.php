@@ -2,9 +2,9 @@
 
 namespace Bildvitta\IssOmni\Tests;
 
+use Bildvitta\IssOmni\IssOmniServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Bildvitta\IssOmni\IssOmniServiceProvider;
 
 class TestCase extends Orchestra
 {

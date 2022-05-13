@@ -2,9 +2,9 @@
 
 namespace Bildvitta\IssOmni;
 
+use Bildvitta\IssOmni\Commands\IssOmniCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Bildvitta\IssOmni\Commands\IssOmniCommand;
 
 class IssOmniServiceProvider extends PackageServiceProvider
 {
