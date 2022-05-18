@@ -14,4 +14,12 @@ class Programmatic extends Resource
     {
         return new Customer($this->issOmni);
     }
+
+    /**
+     * @return RealEstateDevelopment
+     */
+    public function realEstateDevelopment(): RealEstateDevelopment
+    {
+        return new RealEstateDevelopment($this->issOmni);
+    }
 }
